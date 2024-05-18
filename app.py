@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 import pickle
 
 # Load the best model (Extra Trees Classifier in this case) using pickle
-with open('Malicious_url_classifier.pkl', 'rb') as model_file:
+with open('model_output.pkl.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 # Feature extraction functions
